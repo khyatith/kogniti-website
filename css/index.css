@@ -1,9 +1,14 @@
-.banner {
+/* For mobile phones: */
+
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+
+  .banner {
 	text-align: center;
 }
+	body{
+		background-color: white;
+	}
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
 }
