@@ -2,7 +2,7 @@
   body {
     background-color: lightblue;
   }
-}
+
 
 /* For mobile phones: */
   .banner {
@@ -14,9 +14,13 @@
 		text-align: center;
 	}
 
+	
+
 	.box img {
 		width: 40px;
 	}
+
+}
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
