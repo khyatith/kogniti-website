@@ -1,14 +1,33 @@
 /* For mobile phones: */
+  .banner {
+		text-align: center;
+	}
 
+	
+	.section2 {
+		text-align: center;
+	}
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
 
-  .banner {
-	text-align: center;
-}
-	body{
-		background-color: white;
+	  .banner {
+		text-align: center;
 	}
+
+	
+	.section2 {
+		text-align: center;
+	}
+
+	.box {
+		float: left;
+ 		width: 25%;
+	}
+
+	.box img {
+		width: 100px;
+	}
+
 
 }
