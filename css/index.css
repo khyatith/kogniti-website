@@ -1,6 +1,7 @@
 @media only screen and (max-width: 800px) {
   body {
     background-color: lightblue;
+    margin: 0px;
   }
 
 
@@ -25,8 +26,25 @@
 @media only screen and (min-width: 800px) {
   /* For desktop: */
 
+  	body{
+  		margin: 0px;
+  	}
 	  .banner {
 		text-align: center;
+		background-color: black;
+		color: white;
+	}
+
+	.banner h1{
+		padding: 5px;
+		padding-top: 60px;
+		font-size: 50px;
+	}
+
+	.banner h2{
+		padding-bottom: 50px;
+		font-size: 30px;
+		font-weight: normal;
 	}
 
 	
@@ -37,10 +55,25 @@
 	.box {
 		float: left;
  		width: 25%;
+ 		color: white;
+ 		padding-top: 50px;
+ 		height: 800px;
 	}
 
 	.box img {
 		width: 100px;
+		padding-top: 10%;
+	}
+
+	.box h1{
+		padding-top: 10%;
+	}
+
+	.box p {
+		padding-top: 10%;
+		text-align: center;
+		padding: 20%;
+		font-size: 25px;
 	}
 
 
