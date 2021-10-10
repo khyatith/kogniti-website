@@ -77,12 +77,28 @@
 		font-weight: normal;
 	}
 
+
+	/* Section 4  */
+	.section4 h1 {
+		text-align: center;
+		font-size: 40px;
+	}
+
+
+	.Approach_p {
+		padding-left: 7%;
+		padding-right: 7%;
+		font-size: 20px;
+		height: 25px;
+	}
+
 }
 
 @media only screen and (min-width: 800px) {
   /* For desktop: */
 
   	body{
+  		margin-top: 0px;
   		margin: 0px;
   		padding: 0px;
   		font-family: sans-serif;
@@ -97,6 +113,7 @@
 	}
 
 	.banner h1{
+		margin-top: 0px;
 		padding: 5px;
 		padding-top: 60px;
 		font-size: 50px;
@@ -149,6 +166,7 @@
 		padding-top: 20px;
 		width: 100%;
 
+
 	}
 
 	.section3 h2{
@@ -174,4 +192,30 @@
 	}
 
 
+	/* Section 4  */
+
+	.section4{
+		
+	}
+	.section4 h1 {
+		text-align: center;
+		font-size: 40px;
+	}
+
+
+	.Approach_p {
+		display: inline-block;
+		padding-left: 30%;
+		padding-right: 30%;
+		font-size: 23px;
+		height: 25px;
+	}
+
+footer{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-right: 27%;
+	padding-left: 27%;
+}
+	
 }
