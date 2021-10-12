@@ -10,7 +10,8 @@
 	/* Banner  */
   .banner {
 		text-align: center;
-		background-color: black;
+		background-image:url(../images/banner_org.jpg);
+		background:transparent url(../images/banner.jpg) no-repeat center center;
 		color: white;	
 	}
 
@@ -116,19 +117,31 @@
   		font-family: sans-serif;
   	}
 
+
+  	/* Banner-org */
+  	.banner_org img{
+  		
+  	}
+
+  	.banner_org{
+  		background-image: url(images/banner_org.jpg);
+  		color: white;
+  	}	
   	/* Banner  */
 	  .banner {
 		text-align: center;
-		background-color: black;
+		background-image:url(../images/banner_org.jpg);
 		color: white;
 
 	}
 
+	
 	.banner h1{
 		margin-top: 0px;
 		padding: 5px;
 		padding-top: 60px;
 		font-size: 50px;
+		z-index: 1;
 	}
 
 	.banner h2{
