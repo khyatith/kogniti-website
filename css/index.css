@@ -74,6 +74,24 @@
 	}
 	
 
+	/* YouTube */
+	.video-container{
+		
+		overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+
+	}
+
+	.video-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 	/* Section 2  */
 	.section2 {
 		text-align: center;
@@ -164,6 +182,11 @@
   		font-family: sans-serif;
   	}
 
+  	.banner-title{
+  		animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  	}
+
   	.nav-space{
   		background-color: black;
   	}
@@ -194,6 +217,7 @@
   padding: 8px 16px;
   text-decoration: none;
   border: 1px solid white;
+  border-radius: 30px;
 	}
 
 	.nav li a:hover {
@@ -237,8 +261,41 @@
 		font-weight	: normal;
 	}
 
-	
+	.video-title{
+		text-align: center;
+	}
 
+	.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* - 16:9 aspect ratio (most common) */
+    /* padding-bottom: 62.5%; - 16:10 aspect ratio */
+    /* padding-bottom: 75%; - 4:3 aspect ratio */
+    padding-top: 30px;
+    height: auto;
+    overflow: hidden;
+    width: 80%;
+		margin: 0 auto; 
+
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    border: 0;
+    position: absolute;
+    padding: 0 auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    margin: 0px;
+}
+
+.video-container p{
+	display: block;
+	top: 650px;
+	text-align: center;
+}
 	/* Section 2  */
 	.section2 {
 		text-align: center;
@@ -256,7 +313,9 @@
 	.box img {
 		width: 100px;
 		padding-top: 10%;
+	
 	}
+
 
 	.box h1{
 		padding-top: 10%;
@@ -314,6 +373,17 @@
 		font-size: 40px;
 	}
 
+
+
+	.contact-us h1 {
+		text-align: center;
+		font-size: 40px;
+	}
+
+	.contact-us{
+		width: 30%;
+		margin: 0 auto; 
+	}
 
 	.Approach_p {
 		display: inline-block;
