@@ -1,16 +1,52 @@
 @media only screen and (max-width: 800px) {
   body {
     margin: 0px;
+    padding: 0px;
   }
 
 
 /* For mobile phones: */
 
+	.nav{
+		position: absolute;
+		padding: 0px;
+		top: 35px;
+		width: 100%;
+		height: 35px;
+	}
+
+	.nav ul{
+		list-style-type: none;
+  	margin: 0;
+ 	 padding: 0px;
+ 	 width: 100%;
+ 	 text-align: center;
+ 	 }
+
+ 	 .nav li {
+ 	 	display: inline;
+ 	 	font-size: 20px;
+ 	 }
+	.nav li a{
+  color: white;
+  padding: 6px 14px;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 25px;
+	}
+
+	.nav li a:hover {
+  background-color: #555;
+  color: white;
+
+}
+
+
 
 	/* Banner  */
   .banner {
+  	margin-top: 0px;
 		text-align: center;
-		background-image:url(../images/banner_org.jpg);
 		background:transparent url(../images/banner.jpg) no-repeat center center;
 		color: white;	
 	}
@@ -108,6 +144,8 @@
 }
 
 @media only screen and (min-width: 800px) {
+
+
   /* For desktop: */
 
   	body{
@@ -116,6 +154,46 @@
   		padding: 0px;
   		font-family: sans-serif;
   	}
+
+  	.nav-space{
+  		background-color: black;
+  	}
+
+	.nav{
+		
+		
+		padding: 3px;
+		width: 100%;
+		height: 35px;
+	}
+
+	.nav ul{
+		list-style-type: none;
+  	margin: 0px;
+ 	 padding: 0px;
+ 	 width: 100%;
+ 	 text-align: center;
+ 	 	}
+
+ 	 .nav li {
+ 	 	display: inline;
+ 	 	font-size: 25px;
+ 	 	padding:0px 155px ;
+ 	 }
+	.nav li a{
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid white;
+	}
+
+	.nav li a:hover {
+  background-color: #555;
+  color: white;
+
+}
+
+
 
 
   	/* Banner-org */
