@@ -151,6 +151,22 @@
 	}
 
 
+	.contact-us h1 {
+		text-align: center;
+		font-size: 40px;
+	}
+
+	.contact-us{
+		width: 80%;
+		margin: 0 auto; 
+	}
+
+	.contact-us iframe{
+		height: 500px;
+    width:100%;	
+	}
+
+
 	.Approach_p {
 		display: inline-block;
 
