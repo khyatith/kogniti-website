@@ -77,6 +77,11 @@
 		font-size: 20px;
 		font-weight	: normal;
 	}
+
+	.twit{
+		width: 80%;
+		margin: 0 auto;
+	}
 	
 
 	/* YouTube */
@@ -280,6 +285,11 @@
 		padding-bottom: 50px;
 		font-size: 30px;
 		font-weight	: normal;
+	}
+
+	.twit{
+		width: 30%;
+		margin: 0 auto;
 	}
 
 	.video-title{
