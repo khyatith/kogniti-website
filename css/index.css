@@ -100,7 +100,7 @@
 		float: left;
  		width: 100%;
  		color: white;
- 		height: 450px;
+ 		padding-top: 10%;
 	}
 	.twit-box2 {
 		float: left;
@@ -337,7 +337,7 @@
 
 	.twit-box {
 		float: left;
- 		width: 50%;
+ 		width: 25%;
  		color: white;
  		height: 800px;
 	}
@@ -349,7 +349,7 @@
 	}
 
 	.twit-box-inside{
-		padding: 20%;
+		padding: 10%;
 	}
 	
 	
