@@ -79,9 +79,39 @@
 	}
 
 	.twit{
-		width: 80%;
+		width: 100%;
 		margin: 0 auto;
 	}
+
+		.twit1{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.twitter-title{
+		text-align: center;
+		background-color: #a3a3a3;
+		color: white;
+		margin: 0px;
+	}
+
+	.twit-box {
+		float: left;
+ 		width: 100%;
+ 		color: white;
+ 		height: 450px;
+	}
+	.twit-box2 {
+		float: left;
+ 		width: 100%;
+ 		color: white;
+ 		height: 650px;
+	}
+
+	.twit-box-inside{
+		padding:0% 10%;
+	}
+	
 	
 
 	/* YouTube */
@@ -108,9 +138,9 @@
 	}
 
 	.box {
-		height: 300px;
+		height: 320px;
 		padding:  20px;
-		padding-top: 20px;
+		padding-top: 22px;
 		padding-bottom: 20px;
 		color: white;
 	}
@@ -292,6 +322,25 @@
 		margin: 0 auto;
 	}
 
+
+	.twit-box {
+		float: left;
+ 		width: 50%;
+ 		color: white;
+ 		height: 800px;
+	}
+	.twit-box2 {
+		float: left;
+ 		width: 50%;
+ 		color: white;
+ 		height: 1200px;
+	}
+
+	.twit-box-inside{
+		padding: 20%;
+	}
+	
+	
 	.video-title{
 		text-align: center;
 	}
