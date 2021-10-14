@@ -93,6 +93,7 @@
 		background-color: #a3a3a3;
 		color: white;
 		margin: 0px;
+		padding: 15px 0px;
 	}
 
 	.twit-box {
@@ -323,6 +324,17 @@
 	}
 
 
+
+
+	.twitter-title{
+		text-align: center;
+		font-size: 50px;
+		background-color: #a3a3a3;
+		color: white;
+		margin: 0px;
+		padding: 35px 0px;
+	}
+
 	.twit-box {
 		float: left;
  		width: 50%;
@@ -456,6 +468,7 @@
 
 
 	.contact-us h1 {
+		
 		text-align: center;
 		font-size: 40px;
 	}
