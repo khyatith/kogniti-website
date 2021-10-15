@@ -399,7 +399,7 @@
  		width: 25%;
  		color: white;
  		padding-top: 50px;
- 		height: 800px;
+ 		height: 780px;
 	}
 
 	.box img {
@@ -414,10 +414,10 @@
 	}
 
 	.box p {
-		padding-top: 10%;
+		padding-top: 8%;
 		text-align: center;
-		padding: 20%;
-		font-size: 25px;
+		padding: 11%;
+		font-size: 24px;
 	}
 
 	/* Section 3 */
